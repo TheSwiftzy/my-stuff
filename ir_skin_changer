@@ -1,0 +1,295 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("sheeesh#2630", "Midnight")
+
+-- MAIN
+local Main = Window:NewTab("Clothing")
+local Clothing = Main:NewSection("Clothing")
+
+local Main2 = Window:NewTab("Emotes")
+local Emote = Main2:NewSection("Emotes")
+
+local Main3 = Window:NewTab("Black Skin")
+local BlackSkin = Main3:NewSection("Black Skin")
+
+-- CLOTHING
+
+Clothing:NewButton("Unicorn Girl", "Unicorn Girl", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Unicorn Girl"
+end)
+
+Clothing:NewButton("Team Blizzy", "FAA Tournament Prize", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Team Blizzy"
+end)
+
+Clothing:NewButton("JJ 2019 3RD", "MTN DEW", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "JJ 2019 3RD Outfit"
+end)
+
+Clothing:NewButton("JJ 2019 2ND", "JJ 2019 2ND Place Outfit", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "JJ 2019 2ND Outfit"
+end)
+
+Clothing:NewButton("JJ 2019 1ST", "JJ 2019 1ST Place Outfit", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "JJ 2019 1ST Outfit"
+end)
+
+Clothing:NewButton("Dark Unicorn Girl", "Dark Unicorn Girl", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Dark Unicorn Girl"
+end)
+
+Clothing:NewButton("Spizzik Skin", "When Spizzik was good LOL", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Spizzik Skin"
+end)
+
+Clothing:NewButton("Gode Skin", "Gode's Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Gode Skin"
+end)
+
+Clothing:NewButton("Cuddle Team Leader", "AA Finalist Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Cuddle Team Leader"
+end)
+
+Clothing:NewButton("iLag Skin", "iLag's Custom Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "iLag Skin"
+end)
+
+Clothing:NewButton("Sniper Skin", "Sniper's Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Sniper Skin"
+end)
+
+Clothing:NewButton("Kiwi Skin", "Kiwi's Custom Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Kiwi Skin"
+end)
+
+Clothing:NewButton("JJ 2020 Finalist", "JJ 2020 Finalist Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "JJ 2020 Finalist Outfit"
+end)
+
+Clothing:NewButton("Coolio Finalist Skin", "It's orange and white", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Coolio Finalist Skin"
+end)
+
+Clothing:NewButton("Luke Skin 1", "WHO THE HECK", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Avera Who The Heck"
+end)
+
+Clothing:NewButton("Luke Skin 2", "Awww", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Lukey Poo Skin"
+end)
+
+Clothing:NewButton("Mark Poo Poo Boy", "Marktheartest's Custom Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Mark Poo Poo Boy"
+end)
+
+Clothing:NewButton("Clever Boi", "CleverSource's Custom Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Clever Boi"
+end)
+
+
+Clothing:NewButton("Kathy Cloth", "Kait's Custom Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Kathy Cloth"
+end)
+
+Clothing:NewButton("Winter Cup 2020 Outfit", "Winter Cup 2020 Finalist Skin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Clothing.Value = "Winter Cup 2020 Outfit"
+end)
+
+-- Emote
+
+Emote:NewButton("Infinite Dab", "Infinite Dab", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Infinite Dab"
+end)
+
+Emote:NewButton("YeeHaw", "YeeHaw", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "YeeHaw"
+end)
+
+Emote:NewButton("Hyped", "Hyped", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Hyped"
+end)
+
+Emote:NewButton("Flossin", "Flossin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Flossin"
+end)
+
+Emote:NewButton("Zombie Shuffle", "Zombie Shuffle", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Zombie Shuffle"
+end)
+
+Emote:NewButton("Float", "Float", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Float"
+end)
+
+Emote:NewButton("Cuffed", "Cuffed", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Cuffed"
+end)
+
+Emote:NewButton("T-Pose", "T-Pose", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "T-Pose"
+end)
+
+Emote:NewButton("Lemon Injustice", "Lemon Injustice", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Lemon Injustice"
+end)
+
+Emote:NewButton("War Cry", "War Cry", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "War Cry"
+end)
+
+Emote:NewButton("Dab", "Dab", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Dab"
+end)
+
+Emote:NewButton("Throwing Stacks", "Throwing Stacks", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Throwing Stacks"
+end)
+
+Emote:NewButton("Hold The L", "Hold The L", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Hold The L"
+end)
+
+Emote:NewButton("Electric Jammin", "Electric Jammin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Electric Jammin"
+end)
+
+Emote:NewButton("Lock N Pop", "Lock N Pop", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Lock N Pop"
+end)
+
+Emote:NewButton("Wormie", "Wormie", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Wormie"
+end)
+
+Emote:NewButton("Birdie", "Birdie", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Birdie"
+end)
+
+Emote:NewButton("Face Off", "Face Off", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Face Off"
+end)
+
+Emote:NewButton("Secret Twist", "Secret Twist", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Secret Twist"
+end)
+
+Emote:NewButton("Lemon Injustice Reborn", "Lemon Injustice Reborn", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Lemon Injustice Reborn"
+end)
+
+Emote:NewButton("Best Buddies", "Best Buddies", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Best Buddies"
+end)
+
+Emote:NewButton("Blingy Hotline", "Blingy Hotline", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Blingy Hotline"
+end)
+
+Emote:NewButton("Running To Danger", "Running To Danger", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Running To Danger"
+end)
+
+Emote:NewButton("Headbangin", "Headbangin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Headbangin"
+end)
+
+Emote:NewButton("Flippin Amazing", "Flippin Amazing", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Flippin Amazing"
+end)
+
+Emote:NewButton("Flowin Free", "Flowin Free", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Flowin Free"
+end)
+
+Emote:NewButton("Beatdown", "Beatdown", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Beatdown"
+end)
+
+Emote:NewButton("Wacky Feet", "Wacky Feet", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Wacky Feet"
+end)
+
+Emote:NewButton("Default Dance", "Default Dance", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Default Dance"
+end)
+
+Emote:NewButton("Hatchling Dance", "Hatchling Dance", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Hatchling Dance"
+end)
+
+Emote:NewButton("Beep Boop", "Beep Boop", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Beep Boop"
+end)
+
+Emote:NewButton("Power Dance", "Power Dance", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Power Dance"
+end)
+
+Emote:NewButton("Snakin", "Snakin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Snakin"
+end)
+
+Emote:NewButton("Redead", "Redead", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Redead"
+end)
+
+Emote:NewButton("So Smooth", "So Smooth", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "So Smooth"
+end)
+
+Emote:NewButton("Blood Sprayin", "Blood Sprayin", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Blood Sprayin"
+end)
+
+Emote:NewButton("Santas Jam", "Santas Jam", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Santas Jam"
+end)
+
+Emote:NewButton("Boppin Elf", "Boppin Elf", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Boppin Elf"
+end)
+
+Emote:NewButton("Elf Skip", "Elf Skip", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Elf Skip"
+end)
+
+Emote:NewButton("Otherwordly", "Otherwordly", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Otherwordly"
+end)
+
+Emote:NewButton("Dark Matter Ninja", "Dark Matter Ninja", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Dark Matter Ninja"
+end)
+
+Emote:NewButton("The Clash", "The Clash", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "The Clash"
+end)
+
+Emote:NewButton("Money Situation", "Money Situation", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Money Situation"
+end)
+
+Emote:NewButton("Swipe It", "Swipe It", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Swipe It"
+end)
+
+Emote:NewButton("Life Support", "Life Support", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Life Support"
+end)
+
+Emote:NewButton("Gamestonks", "Gamestonks", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Gamestonks"
+end)
+
+Emote:NewButton("Clean Hustle", "Clean Hustle", function()
+    game:GetService("ReplicatedStorage")["Player_Data"][game.Players.LocalPlayer.Name].Emote.Value = "Clean Hustle"
+end)
+
+-- BLACK SKIN
+
+BlackSkin:NewButton("Black Skin", "Permanent Black Skin Effect", function()
+    local ohTable1 = {
+    ["Skin Color"] = BrickColor.new("Really black")
+}
+
+game:GetService("ReplicatedStorage").Remote_Functions.Edit_Character:InvokeServer(ohTable1)
+end)
