@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("sheeesh#2630", "Midnight")
+local Window = Library.CreateLib("discord: sheeesh#2630", "Midnight")
 
 -- MAIN
 local Main = Window:NewTab("Clothing")
